@@ -19,7 +19,6 @@ CORS(app)
 app.config.from_object(config)
 
 
-
 # Import the routes After the Flask app is created
 # pylint: disable=wrong-import-position, cyclic-import, wrong-import-order
 from service import routes, models  # noqa: F401 E402
